@@ -1,8 +1,4 @@
-# Frontend Mentor challenge- Recipe page
-
-![Design preview for the Recipe page coding challenge](./preview.jpg)
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Frontend Mentor challenge- Recipe page
 
 ## The challenge
 
