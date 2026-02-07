@@ -8,7 +8,7 @@ main{
 }
 
 body{
-    background-color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 54%, 90%);
     padding: 50px;
 }
 
@@ -16,8 +16,8 @@ body{
     height: auto;
     width: 650px;
     margin: auto;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 35px;
+    border-radius: 20px;
     background-color: white ;
     
 
@@ -32,19 +32,24 @@ body{
         font-family: Young Serif;
         font-weight: 400;
         color: hsl(14, 45%, 36%);
+        font-size: 28px;
+        margin-bottom: auto;
     }
 
     h1{
         font-family: "Young Serif";
         font-weight: 400;
+        font-size: 40px;
         color: hsl(24, 5%, 18%);
+        margin-bottom: auto;
     }
 
     p{
         font-family: 'Outfit';
         font-size: 16px;
         font-weight: 400;
-        margin-bottom: 30px;
+        
+        color: hsl(30, 10%, 34%);
     }
 }
 
@@ -52,17 +57,29 @@ body{
 .prep-container{
     background-color: hsl(330, 100%, 98%);
     border-radius: 10px;
-    padding: 5px;
-
+    padding: 10px;
+    padding-top: 15px;
+    margin-top: 30px;
     h3{
         color: hsl(332, 51%, 32%);
         font-family: "Outfit";
         font-weight: 700;
-        margin: 15px;
+        margin-left: 20px;
+        line-height: 5px;
     }
 
     li::marker{
         color:  hsl(332, 51%, 32%);
+        
+    }
+
+    ul{
+        color:  hsl(30, 10%, 34%);
+        padding-left: 40px;
+       
+        li{
+            padding-left: 15px;
+        }
     }
 }
 
@@ -72,13 +89,20 @@ ul{
     font-weight: 400;
     line-height: 1.8;
     color: hsl(30, 10%, 34%);
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+    li::marker{
+        font-size: small;
+        
+    }
 }
 
 li{
     font-family: 'Outfit';
     font-weight: 400;
-    font-size: 16px;
-
+    /* font-size: 16px; */
+    padding-left: 15px;
    
 }
 
@@ -92,15 +116,48 @@ ol > li::marker{
 
 ol li{
       padding-left: 1rem; 
-      line-height: 1.5 
+      line-height: 1.5;
+      
         }
 
 ol{
     line-height: 0.5;
     color: hsl(30, 10%, 34%);
+     font-size: 16px;
+     padding-left: 23px;
+     margin-bottom: 30px;
 }
-       
 
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+tr {
+    border-bottom: solid;
+    border-color:  hsl(30, 18%, 87%);
+    border-width: 1px;
+}
+
+td{
+    padding-right: 215px;
+    font-family: Outfit;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 54%, 90%); 
+    
+}
 
 .attribution{
     margin-top: 20px;
