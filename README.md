@@ -1,4 +1,4 @@
-Frontend Mentor challenge- Recipe page
+Frontend Mentor challenge - Recipe page
 
 ## The challenge
 
